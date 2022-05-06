@@ -1,0 +1,25 @@
+{
+    "name": "qubeprox",
+    "version": "1.0.0",
+    "description": "An unblockable and undetectable proxy made for schools and for deploying on webservers.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chunkban/qubeprox.git"
+    },
+    "keywords": [
+        "proxy",
+        "unblockable",
+        "undetectable",
+        "schools"
+    ],
+    "author": "chunkbanned",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chunkban/qubeprox/issues"
+    },
+    "homepage": "https://github.com/chunkban/qubeprox#readme"
+}
