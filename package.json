@@ -1,7 +1,8 @@
 {
     "dependencies": {
         "bare-server-node": "github:tomphttp/bare-server-node",
-        "node-static": "^0.7.11"
+        "node-static": "^0.7.11",
+        "particles.js": "^2.0.0"
     },
     "name": "qubeprox",
     "version": "1.0.0",
