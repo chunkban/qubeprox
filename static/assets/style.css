@@ -1,3 +1,68 @@
 body {
     background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+#container {
+    /* Centering */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* --------- */
+    width: 800px;
+    height: 500px;
+    background-color: rgba(43, 43, 43, 0.288);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#container h1 {
+    margin-bottom: 0px;
+}
+
+#container .sub {
+    margin-top: 0px;
+}
+
+#container:hover {
+    transition: background-color ease-in-out 0.1s;
+    background-color: rgba(54, 54, 54, 0.377);
+}
+
+hr {
+    width: 30%;
+    background-color: rgba(71, 71, 71, 0.445);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    /* Not working??? */
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+form>input {
+    background-color: #353535;
+    border: 1px solid #757575;
+    padding: 15px;
+    border-radius: 15px;
+    width: 500px;
+    color: white;
 }
