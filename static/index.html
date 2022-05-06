@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>78adfs678gdf678sgfd687fgd876gfdx876</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        
+        iframe {
+            border: none;
+        }
+        
+        html,
+        body {
+            background-color: #121212;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="mp.html" width="99%" height="99%"></iframe>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            if (urlParams.has('iframe')) {
+                alert('This page cannot be loaded without being loaded in an iframe. This is to help with bypassing certain blocking procedures.')
+                window.location.href = "index.html";
+            }
+        });
+    </script>
+</body>
+
+</html>
