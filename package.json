@@ -1,4 +1,8 @@
 {
+    "dependencies": {
+        "bare-server-node": "github:tomphttp/bare-server-node",
+        "node-static": "^0.7.11"
+    },
     "name": "qubeprox",
     "version": "1.0.0",
     "description": "An unblockable and undetectable proxy made for schools and for deploying on webservers.",
