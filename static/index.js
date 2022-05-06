@@ -19,3 +19,10 @@ function isUrl(val = '') {
     if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
     return false;
 };
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    var iFrameDetection = (window === window.parent) ? false : true;
+    if (iFrameDetection == false) {
+        window.location.href = "index.html?iframe";
+    }
+});
